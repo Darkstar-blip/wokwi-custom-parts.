@@ -1,12 +1,12 @@
 {
-  "name": "ESC",
-  "author": "your-name",
-  "version": "1.0.0",
-  "description": "Electronic Speed Controller mock component",
+  "id": "esc",
+  "name": "Electronic Speed Controller (ESC)",
+  "description": "A custom ESC part for motor control in Wokwi.",
+  "image": "esc.svg",
+  "script": "esc.js",
   "pins": [
-    { "name": "VCC", "x": 0, "y": 0, "number": 1 },
-    { "name": "GND", "x": 0, "y": 20, "number": 2 },
-    { "name": "PWM", "x": 40, "y": 10, "number": 3 }
-  ],
-  "graphics": "esc.svg"
+    { "id": "gnd", "name": "GND", "type": "power" },
+    { "id": "vcc", "name": "VCC", "type": "power" },
+    { "id": "signal", "name": "Signal", "type": "io" }
+  ]
 }
