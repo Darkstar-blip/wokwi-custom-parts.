@@ -1,1 +1,14 @@
-
+{
+  "id": "bldc",
+  "name": "BLDC Motor",
+  "description": "Custom BLDC Motor for Wokwi simulation.",
+  "image": "bldc.svg",
+  "script": "bldc.js",
+  "pins": [
+    { "id": "gnd", "name": "GND", "type": "power" },
+    { "id": "vcc", "name": "VCC", "type": "power" },
+    { "id": "phase_a", "name": "Phase A", "type": "io" },
+    { "id": "phase_b", "name": "Phase B", "type": "io" },
+    { "id": "phase_c", "name": "Phase C", "type": "io" }
+  ]
+}
