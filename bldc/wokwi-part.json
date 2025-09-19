@@ -1,12 +1,14 @@
 {
-  "name": "BLDC",
-  "author": "your-name",
-  "version": "1.0.0",
-  "description": "Mock BLDC motor for Wokwi",
+  "id": "bldc",
+  "name": "BLDC Motor",
+  "description": "Custom BLDC Motor for Wokwi simulation.",
+  "image": "bldc.svg",
+  "script": "bldc.js",
   "pins": [
-    { "name": "Phase A", "x": 0, "y": 0, "number": 1 },
-    { "name": "Phase B", "x": 0, "y": 20, "number": 2 },
-    { "name": "Phase C", "x": 0, "y": 40, "number": 3 }
-  ],
-  "graphics": "bldc.svg"
+    { "id": "gnd", "name": "GND", "type": "power" },
+    { "id": "vcc", "name": "VCC", "type": "power" },
+    { "id": "phase_a", "name": "Phase A", "type": "io" },
+    { "id": "phase_b", "name": "Phase B", "type": "io" },
+    { "id": "phase_c", "name": "Phase C", "type": "io" }
+  ]
 }
