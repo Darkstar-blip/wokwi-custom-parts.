@@ -1,4 +1,10 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="80" height="80">
-  <circle cx="40" cy="40" r="35" fill="lightgreen" stroke="black"/>
-  <text x="40" y="45" font-size="12" text-anchor="middle">BLDC</text>
+<svg width="80" height="80" viewBox="0 0 80 80" xmlns="http://www.w3.org/2000/svg">
+  <circle cx="40" cy="40" r="30" fill="#ccc" stroke="#333" stroke-width="3"/>
+  <text x="40" y="45" font-size="16" fill="#333" text-anchor="middle">BLDC</text>
+  <!-- Pin markers and labels -->
+  <circle cx="10" cy="40" r="3" fill="#222"/><text x="10" y="35" font-size="8" text-anchor="middle">GND</text>
+  <circle cx="70" cy="40" r="3" fill="#222"/><text x="70" y="35" font-size="8" text-anchor="middle">VCC</text>
+  <circle cx="40" cy="10" r="3" fill="#222"/><text x="40" y="7" font-size="8" text-anchor="middle">A</text>
+  <circle cx="25" cy="70" r="3" fill="#222"/><text x="25" y="77" font-size="8" text-anchor="middle">B</text>
+  <circle cx="55" cy="70" r="3" fill="#222"/><text x="55" y="77" font-size="8" text-anchor="middle">C</text>
 </svg>
