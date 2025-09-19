@@ -1,0 +1,17 @@
+{
+  "name": "NRF24L01",
+  "author": "your-name",
+  "version": "1.0.0",
+  "description": "Mock NRF24L01 wireless module for Wokwi",
+  "pins": [
+    { "name": "VCC", "x": 0, "y": 0, "number": 1 },
+    { "name": "GND", "x": 0, "y": 20, "number": 2 },
+    { "name": "CE", "x": 60, "y": 0, "number": 3 },
+    { "name": "CSN", "x": 60, "y": 20, "number": 4 },
+    { "name": "SCK", "x": 60, "y": 40, "number": 5 },
+    { "name": "MOSI", "x": 60, "y": 60, "number": 6 },
+    { "name": "MISO", "x": 60, "y": 80, "number": 7 },
+    { "name": "IRQ", "x": 60, "y": 100, "number": 8 }
+  ],
+  "graphics": "nrf24.svg"
+}
